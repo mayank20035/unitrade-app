@@ -1,16 +1,24 @@
-# React + Vite
+# UniTrade 🎓 - College Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application built for the IIMT University community, allowing students to buy and sell used goods like books, equipment, and more, directly on campus.
 
-Currently, two official plugins are available:
+**This project is live! Check it out:** [**https://unitradebymayankpandey.netlify.app/**](https://unitradebymayankpandey.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 The Problem
 
-## React Compiler
+College students often have books or equipment they only need for one semester. This app solves that problem by creating a hyper-local marketplace just for the IIMT campus, eliminating shipping costs and connecting students directly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* **Student-Only Access:** Secure signup using official `@iimtu.edu.in` email addresses.
+* **Full CRUD Functionality:** Users can create, read, and browse all listings.
+* **Real-Time Database:** Built with a modern backend that instantly shows new listings.
+* **Image Storage:** Users can upload images for their product listings.
+* **Responsive UI:** A clean, modern interface built with Tailwind CSS that works on all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **CSS:** Tailwind CSS
+* **Backend (BaaS):** Appwrite (Handles Auth, Database, and Storage)
+* **Deployment:** Netlify
